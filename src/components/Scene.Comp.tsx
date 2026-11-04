@@ -1,4 +1,4 @@
-import { useAnimations,useGLTF,useTexture } from "@react-three/drei";
+import {useAnimations,useGLTF,useTexture} from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 import { useEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
@@ -89,16 +89,26 @@ function Scene() {
     });
 
     const [
-        
+        mat1,
         mat2,
+        mat3,
+        mat4,
+        mat5,
+        mat6,
+        mat7,
         mat8,
         mat9,
         mat10,
+        mat11,
         mat12,
         mat13,
+        mat14,
+        mat15,
+        mat16,
         mat17,
+        mat18,
         mat19,
-        
+        mat20,
     ] = matcaps;
 
     // Shader uniforms
